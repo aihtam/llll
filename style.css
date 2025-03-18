@@ -86,12 +86,12 @@ body {
 }
 
 .jump {
-    animation:dino-animation 0.8s ease-out;
+    animation:dino-animation 1s ease-out;
 }
 
 @keyframes dino-animation {
     0%{bottom: 0;}
-    50%{bottom: 30vh;}
+    50%{bottom: 35vh;}
     100%{bottom: 0;}
 }
 
