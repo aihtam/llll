@@ -25,14 +25,15 @@ body {
     align-items: center;
     height: 10vh;
     font-size: 2rem;
+    background-color: cadetblue;
 }
 
 .game-board { 
     background: url(imgs/dino-game-cover.1.png) repeat-x;
     background-color: white;
     background-size: cover;
-    width: 1000px;
-    height: 530px;
+    width: 65vw;
+    height: 70vh;
     border: solid 1px #ddd;
     position: relative;
     margin: 0 auto;
@@ -42,8 +43,8 @@ body {
 }
 
 #cacto {
-    height: 110px;
-    width: 70px;
+    height: 15vh;
+    width: 4vw;
     bottom: 0;
     position: absolute;
     transition:all 0.2s;
@@ -60,6 +61,8 @@ body {
 
 #dino {
     position: absolute;
+    height: 2vh;
+    width: 8vw;
     bottom: 0;
     height: 180px;
     transition: all 0.4s;
@@ -87,7 +90,7 @@ body {
 
 @keyframes dino-animation {
     0%{bottom: 0;}
-    50%{bottom: 350px;}
+    50%{bottom: 30vh;}
     100%{bottom: 0;}
 }
 
